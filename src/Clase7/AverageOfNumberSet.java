@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class AverageOfNumberSet {
     public static void main(String[] args) {
-
         System.out.println("Uso de Arrays Ejemplo 3 - Despliega el valor promedio de un conjunto ingresado.");
         Scanner _keyboard = new Scanner(System.in);
         System.out.print("Cuantos numeros deseas ingresar? : ");
