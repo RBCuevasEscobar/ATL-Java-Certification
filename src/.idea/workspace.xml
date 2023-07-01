@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="876d8c22-dbfe-4b2c-a8ec-02d52bf8639e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../00-proyectos/autocompletesearch/src/main/java/com/milan/autocompletesearch/SearchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00-proyectos/peoplemanagement/src/main/java/com/milan/peoplemanagement/UserManagementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase9/PeopleSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00-proyectos/PersonManagement/src/ClassPersona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00-proyectos/PersonManagement/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase10/ClassPersona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +27,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/ramon/Documents/My Documents/Technical Training/Programming Languages/Java/ATL-Java-Certification/src"
