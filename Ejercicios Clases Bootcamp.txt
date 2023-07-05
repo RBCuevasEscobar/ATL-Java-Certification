@@ -1,0 +1,32 @@
+Ejercicios Java Certification 
+
+Clase 10
+	- Trivia OOP + Arrays (Completed!)
+	
+	
+Clase 11
+	- Trivia OOP + ChatGPT API
+
+Clase 12
+	- Secret friend (Hecho en JavaScript)
+	- Change Calculator
+	- Compound Interest Calculator
+	- Student Notes OOP
+	- Word guessing OOP
+	- Spootify Playlist
+	
+Clase 13
+	- User management con frontend y springboot 
+	
+Clase 14
+	- CV Review and Development
+	- Drill Java Test
+
+Clase 15
+	- Code Review (peer-to-peer)
+	- Examen
+
+Clase 16
+	- POO - Encapsulamiento, polimorfismo, herencia y abstraccion.
+	- Ejercicio area y perimetro de figuras geometricas
+	- Ejercicio juego de rol.
