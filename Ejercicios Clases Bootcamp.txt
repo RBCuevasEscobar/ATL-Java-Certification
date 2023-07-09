@@ -5,14 +5,14 @@ Clase 10
 	
 	
 Clase 11
-	- Trivia OOP + ChatGPT API
+	- Trivia OOP + ChatGPT API 
 
 Clase 12
-	- Secret friend (Hecho en JavaScript)
-	- Change Calculator
-	- Compound Interest Calculator
+	- Secret friend (Hecho en JavaScript) (Completed!)
+	- Change Calculator (Completed!)
+	- Compound Interest Calculator (Completed!)
 	- Student Notes OOP
-	- Word guessing OOP
+	- Word guessing OOP 
 	- Spootify Playlist
 	
 Clase 13
@@ -30,3 +30,14 @@ Clase 16
 	- POO - Encapsulamiento, polimorfismo, herencia y abstraccion.
 	- Ejercicio area y perimetro de figuras geometricas
 	- Ejercicio juego de rol.
+	
+CLase 17
+	- Ejercicio juego de rol.
+	- Introduccion a la Base de Datos.
+	
+	Donde estes, te envio luz, te envio paz, te envio amor.
+	Sigue tu camino, que yo sigo adelante con el mio.
+	Te deseo lo mejor en la vida.
+	(Cerrando los ojos)
+	Suelto y confio. 
+	Hecho esta, hecho esta, hecho esta.

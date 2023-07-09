@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="876d8c22-dbfe-4b2c-a8ec-02d52bf8639e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Clase12/SecretFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase12/ChangeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase12/CompoundInterestCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios Clases Bootcamp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicios Clases Bootcamp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
