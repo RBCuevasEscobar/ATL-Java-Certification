@@ -18,12 +18,21 @@ public class SecretFriend {
 
     public static void _setFriendsList(List<String> _friendListParm) {
         Boolean _addOneMoreFriend = Boolean.TRUE;
+        Boolean _friendInTheList = Boolean.FALSE;
+        String _newFriend;
         Scanner _keyboard = new Scanner(System.in);
 
         while(_addOneMoreFriend) {
-            String _newFriend = "";
-            System.out.print("Ingrese el nombre: ");
-            _newFriend = _keyboard.nextLine().toUpperCase();
+            do {
+                _newFriend = "";
+                System.out.print("Ingrese el nombre: ");
+                _newFriend = _keyboard.nextLine().toUpperCase();
+                if (_friendListParm.contains(_newFriend)) {
+                    _friendInTheList = Boolean.TRUE;
+                    System.out.println("Ese nombre ya esta incluido en la lista!");
+                }
+                else _friendInTheList = Boolean.FALSE;
+            } while (_friendInTheList);
             _friendListParm.add(_newFriend);
             System.out.println(" ");
             System.out.print("Deseas agregar otro amigo?[S/N]: ");
@@ -37,11 +46,11 @@ public class SecretFriend {
     public static void _getFriendsList() {
         Integer _lengthFriendsList = _friendList.size();
 
-        System.out.println("La lista de amigos registrados es: " + _friendList);
-/*        for (int i = 0; i < _lengthFriendsList; i++) {
+        System.out.println("La lista de amigos registrados es: ");
+        for (int i = 0; i < _lengthFriendsList; i++) {
             System.out.println(_friendList.get(i));
         }
-*/    }
+   }
 
     public static void _matchFriends(List<String> _friendListParm) {
         List<String> _chosenFriends = new ArrayList<>();
@@ -49,6 +58,7 @@ public class SecretFriend {
         List<String> _selectorsAlreadyChoose = new ArrayList<>();
         Random _randomNumber = new Random();
         Scanner _keyboard = new Scanner(System.in);
+        Scanner _scannerEnterKey = new Scanner(System.in);
         Boolean _friendsToSelect = Boolean.TRUE;
 
         while (_friendsToSelect) {
@@ -60,7 +70,10 @@ public class SecretFriend {
             do {
                 System.out.print("Ingresa tu nombre: ");
                 _giftDeliveringFriend = _keyboard.nextLine().toUpperCase();
-                if (_selectorsAlreadyChoose.contains(_giftDeliveringFriend)) {
+                if (!_friendListParm.contains(_giftDeliveringFriend)) {
+                    System.out.println("Ese nombre no esta registrado en la lista!");
+                    _selectorHasChoose = Boolean.TRUE;
+                } else if (_selectorsAlreadyChoose.contains(_giftDeliveringFriend)) {
                     System.out.println("Ya tiene asignado su amigo secreto!");
                     _selectorHasChoose = Boolean.TRUE;
                 }
@@ -82,7 +95,10 @@ public class SecretFriend {
                 _matchingFriend = _bagFriendsToPick.get(_IndexFriendsToPick);
                 System.out.println(" ");
                 System.out.println("Tu amigo secreto es: " + _matchingFriend);
-                _matchedFriendsList.add(_giftDeliveringFriend + " , " + _matchingFriend);
+                System.out.print("Presiona <Enter> para continuar: ");
+                _scannerEnterKey.nextLine();
+                System.out.println("\n \n \n \n \n \n \n \n \n");
+                _matchedFriendsList.add(_giftDeliveringFriend + " -> " + _matchingFriend);
                 _chosenFriends.add(_matchingFriend);
                 _selectorsAlreadyChoose.add(_giftDeliveringFriend);
             }
